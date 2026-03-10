@@ -1,8 +1,8 @@
 # Projeto — Qualidade de Software
 
 ## 👥 Integrantes
-- Janine Veigas Farias — Matrícula
-- Miguel Rubim Vencato — Matrícula
+- Janine Veigas Farias — 782410069
+- Miguel Rubim Vencato — 782410095
 
 ## 🎯 Objetivo do Repositório
 Este repositório reúne as atividades desenvolvidas na disciplina de Qualidade de Software, realizadas por meio da metodologia PBL.
