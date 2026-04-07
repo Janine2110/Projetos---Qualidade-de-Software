@@ -2,7 +2,10 @@
 
 **Disciplina:** Qualidade de Software  
 **Funcionalidade escolhida:** Login/Cadastro  
+**Equipe:** Alabobos  
 **Integrantes:** Janine Veigas Farias e Miguel Rubim Vencato  
+
+
 
 ---
 
