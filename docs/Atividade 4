@@ -94,7 +94,7 @@ if (!email.includes("@"))
 if (senha.length < 6)
 if (usuario == null)
 if (hash(senha) === senhaBanco)
-if (emailJaExiste)
+if (emailJaExiste)```
 
 ### Situações a serem testadas
 
