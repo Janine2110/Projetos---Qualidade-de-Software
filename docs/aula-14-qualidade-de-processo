@@ -6,7 +6,7 @@ Este documento apresenta uma análise do processo de desenvolvimento utilizado p
 A equipe adota a metodologia ágil Kanban para organização das tarefas por meio do Trello, utiliza o Figma para prototipação das interfaces e o Git para controle de versão e integração do código. Além disso, são realizados testes e validações durante o desenvolvimento para garantir a qualidade das funcionalidades entregues.
 
 1. Mapeamento do Processo
-![Fluxograma do Processo](/imagens/diagramaMermaid.png)
+![Fluxograma do Processo](imagens/diagramaMermaid.png)
 ## 2. Identificação de Entradas, Atividades e Saídas
 
 | Etapa                  | Entrada                                        | Atividade                                                   | Saída                   |
