@@ -241,7 +241,7 @@ pytest -v
 evidencias/
   execucao-testes.jpg
 ```
-### 👉 https://github.com/Janine2110/Testes-Funcionais-Automatizados/blob/main/evidencias/execucao-testes.jpg
+### 👉 https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/artefatos/evidencias/execucao-testes.jpg
 
 ## Print da aplicação
 
@@ -249,7 +249,7 @@ evidencias/
 evidencias/
   pagina_inicial.jpg.jpg
 ```
-### 👉 https://github.com/Janine2110/Testes-Funcionais-Automatizados/blob/main/evidencias/pagina_principal.jpg.jpg
+### 👉 https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/artefatos/evidencias/pagina_principal.jpg.jpg
 
 # 🔹 6. Análise crítica
 
@@ -321,7 +321,7 @@ Ajuda na organização dos testes, melhora a documentação viva do sistema e fa
 
 # 📦 Repositório GitHub
 
-https://github.com/Janine2110/Testes-Funcionais-Automatizados
+https://github.com/Janine2110/Projetos---Qualidade-de-Software
 
 ---
 
