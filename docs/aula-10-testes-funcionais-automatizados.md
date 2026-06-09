@@ -52,7 +52,7 @@ playwright codegen https://local-eats-unisenac.vercel.app/
 ### 🔐 Teste de Login
 
 ### 🔗 Link para o teste
-  👉 https://github.com/Janine2110/Testes-Funcionais-Automatizados/blob/main/testes_automatizados/tests/test_login.py
+  👉 https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/src/testes_automatizados/codegen/codegen_login.py
   
 ### 📌 O que o teste faz?
 
@@ -62,11 +62,11 @@ playwright codegen https://local-eats-unisenac.vercel.app/
 
 ## 🔹 4. Refatoração com Page Object Model (POM)
 ### 🔗 Link para Page Object
-  👉 https://github.com/Janine2110/Testes-Funcionais-Automatizados/blob/main/testes_automatizados/pages/login_page.py
+  👉 https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/src/testes_automatizados/codegen/codegen_login.py
 
 ### 🔗 Link para teste refatorado
 
-👉 https://github.com/Janine2110/Testes-Funcionais-Automatizados/blob/main/testes_automatizados/tests/test_login.py
+👉 https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/src/testes_automatizados/codegen/codegen_login.py
 
 ### 🧠 Melhorias realizadas
 
@@ -144,8 +144,8 @@ playwright codegen https://local-eats-unisenac.vercel.app/
 ```
 ### 🔗 Link para o código gerado
 
-  👉 https://github.com/Janine2110/Testes-Funcionais-Automatizados/blob/main/testes_automatizados/codegen/codegen_restaurante.py
-
+  👉 https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/src/testes_automatizados/codegen/codegen_login.py
+  
 ## 🧠 Observações
 
 - ✔ Facilitou a identificação dos elementos da interface  
@@ -160,8 +160,8 @@ playwright codegen https://local-eats-unisenac.vercel.app/
 
 ### 🔗 Link para o teste
 
-  👉 https://github.com/Janine2110/Testes-Funcionais-Automatizados/blob/main/testes_automatizados/tests/test_restaurantes.py
-
+  👉 https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/src/testes_automatizados/tests/test_restaurantes.py
+  
 ## 📌 O que o teste faz?
 
 - Acessa a página de login do sistema  
@@ -176,11 +176,12 @@ playwright codegen https://local-eats-unisenac.vercel.app/
 
 ### 🔗 Link para Page Object
 
-👉 https://github.com/Janine2110/Testes-Funcionais-Automatizados/blob/main/testes_automatizados/pages/restaurantes_page.py
+👉 https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/src/testes_automatizados/tests/test_restaurantes.py
 
 ### 🔗 Link para teste refatorado
 
-👉 https://github.com/Janine2110/Testes-Funcionais-Automatizados/blob/main/testes_automatizados/tests/test_restaurantes.py
+👉 https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/src/testes_automatizados/tests/test_restaurantes.py
+👉 
   
 ## 🧠 Melhorias realizadas
 
@@ -209,7 +210,7 @@ pytest
 
 ### 📸 Evidência
 
-👉 https://github.com/Janine2110/Testes-Funcionais-Automatizados/blob/main/testes_automatizados/print%20passou.jpg
+👉 https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/artefatos/evidencias/execucao-testes.jpg
 
 ---
 
