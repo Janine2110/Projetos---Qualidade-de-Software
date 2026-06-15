@@ -1,13 +1,20 @@
-Aula 14 – Qualidade de Processo
-Introdução
+# Aula 14 – Qualidade de Processo
 
-Este documento apresenta uma análise do processo de desenvolvimento utilizado pela equipe no projeto LocalEats. O objetivo é mapear as etapas envolvidas na produção de software, identificando entradas, atividades e saídas, além de refletir sobre como a qualidade é aplicada ao longo do processo.
+## Introdução
 
-A equipe adota a metodologia ágil Kanban para organização das tarefas por meio do Trello, utiliza o Figma para prototipação das interfaces e o Git para controle de versão e integração do código. Além disso, são realizados testes e validações durante o desenvolvimento para garantir a qualidade das funcionalidades entregues.
+Este documento apresenta uma análise do processo de desenvolvimento utilizado pela equipe no projeto **LocalEats**. O objetivo é mapear as etapas envolvidas na produção de software, identificando entradas, atividades e saídas, além de refletir sobre como a qualidade é aplicada ao longo do processo.
 
-1. Mapeamento do Processo
+A equipe adota a metodologia ágil **Kanban** para organização das tarefas por meio do **Trello**, utiliza o **Figma** para prototipação das interfaces e o **Git** para controle de versão e integração do código. Além disso, são realizados testes e validações durante o desenvolvimento para garantir a qualidade das funcionalidades entregues.
+
+---
+
+# 1. Mapeamento do Processo
+
 ![Fluxograma do Processo](imagens/diagramaMermaid.png)
-## 2. Identificação de Entradas, Atividades e Saídas
+
+---
+
+# 2. Identificação de Entradas, Atividades e Saídas
 
 | Etapa                  | Entrada                                        | Atividade                                                   | Saída                   |
 | ---------------------- | ---------------------------------------------- | ----------------------------------------------------------- | ----------------------- |
@@ -19,28 +26,33 @@ A equipe adota a metodologia ágil Kanban para organização das tarefas por mei
 | Testes                 | Código versionado                              | Executar testes para validar a funcionalidade               | Resultado dos testes    |
 | Correção               | Erros identificados nos testes                 | Corrigir falhas encontradas                                 | Código corrigido        |
 | Entrega                | Funcionalidade validada                        | Integrar a funcionalidade ao projeto e concluir a tarefa    | Funcionalidade entregue |
-## 3. Reflexão sobre o Processo
 
-### O processo utilizado pela equipe está claramente definido?
+---
+
+# 3. Reflexão sobre o Processo
+
+## O processo utilizado pela equipe está claramente definido?
 
 Sim. A equipe possui um processo de desenvolvimento bem estruturado, utilizando o método Kanban por meio do Trello para organizar e acompanhar as tarefas. Esse fluxo permite que todos os integrantes saibam em qual etapa cada atividade se encontra, facilitando o planejamento e a execução do trabalho.
 
-### Todos os integrantes seguem o mesmo fluxo de trabalho?
+## Todos os integrantes seguem o mesmo fluxo de trabalho?
 
 Sim. Todos os integrantes seguem o mesmo fluxo, iniciando pela análise dos requisitos e prototipação, passando pelo desenvolvimento, testes e correções, até a entrega da funcionalidade. Essa padronização contribui para uma melhor organização da equipe e reduz problemas de comunicação.
 
-### Em quais etapas a qualidade é verificada?
+## Em quais etapas a qualidade é verificada?
 
 A qualidade é verificada em diferentes momentos do processo. Inicialmente, durante a análise dos requisitos e validação dos protótipos, busca-se garantir que a funcionalidade atenda às necessidades do projeto. Posteriormente, durante os testes e validações finais, são identificadas possíveis falhas para que possam ser corrigidas antes da entrega.
 
-### Quais melhorias poderiam tornar o processo mais eficiente?
+## Quais melhorias poderiam tornar o processo mais eficiente?
 
 O processo poderia ser aprimorado por meio da ampliação do uso de testes automatizados, da realização de revisões de código entre os integrantes da equipe e de uma documentação mais detalhada dos requisitos. Essas práticas ajudariam a reduzir erros, melhorar a manutenção do sistema e aumentar a produtividade da equipe.
 
-### Como a qualidade do processo impacta a qualidade do produto final?
+## Como a qualidade do processo impacta a qualidade do produto final?
 
 A qualidade do processo influencia diretamente a qualidade do produto final. Um processo bem organizado reduz retrabalho, melhora a comunicação entre os integrantes e facilita a identificação de falhas durante o desenvolvimento. Como resultado, as funcionalidades entregues tendem a apresentar maior estabilidade, confiabilidade e melhor experiência para os usuários.
 
-## Conclusão
+---
+
+# Conclusão
 
 A análise do processo de desenvolvimento do LocalEats demonstrou a importância da qualidade de processo para a construção de um software confiável. A utilização do Trello para gerenciamento das tarefas, do Figma para prototipação e do Git para controle de versão contribui para uma melhor organização das atividades e acompanhamento do progresso do projeto. Além disso, a realização de testes e correções ao longo do desenvolvimento permite identificar e resolver problemas antes da entrega das funcionalidades. Dessa forma, conclui-se que um processo bem definido é essencial para garantir a qualidade do produto final e o sucesso do projeto.
