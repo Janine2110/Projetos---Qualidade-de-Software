@@ -20,6 +20,7 @@
 |---|---|
 | Nome do repositório | `localeats-ci-qualidade` |
 | Link do repositório | https://github.com/Janine2110/Projetos---Qualidade-de-Software/tree/main/src/ci_qualidade |
+| Link do Quadro KanBan (GitHub Projects) | https://github.com/users/Janine2110/projects/4/views/1?layout=board |
 
 ### Estrutura de diretórios utilizada
 
@@ -233,7 +234,7 @@ jobs:
 
 ## Evidência da Execução
 
-https://raw.githubusercontent.com/Janine2110/Projetos---Qualidade-de-Software/main/artefatos/evidencias/ci_qualidade.jpg
+![Execução do pipeline com 7 testes aprovados](https://raw.githubusercontent.com/Janine2110/Projetos---Qualidade-de-Software/main/artefatos/evidencias/ci_qualidade.jpg)
 
 ## 🔹 6. Registro de Defeito
 
