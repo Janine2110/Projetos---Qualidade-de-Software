@@ -19,7 +19,7 @@
 | Item | Descrição |
 |---|---|
 | Nome do repositório | `localeats-ci-qualidade` |
-| Link do repositório | https://github.com/Janine2110/Projetos---Qualidade-de-Software/tree/main/src/testes_automatizados/ci_qualidade |
+| Link do repositório | https://github.com/Janine2110/Projetos---Qualidade-de-Software/tree/main/src/ci_qualidade |
 
 ### Estrutura de diretórios utilizada
 
@@ -53,7 +53,7 @@ localeats-ci-qualidade/
 |---|---|
 | Tipo de teste | Unitário (pytest) |
 | Objetivo do teste | Garantir o cálculo correto do total do pedido (Janine) e a validação correta de cupons de desconto (Miguel), cobrindo casos de sucesso e casos de borda. |
-| Link para o arquivo do teste | https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/src/testes_automatizados/ci_qualidade/tests/test_order.py |
+| Link para o arquivo do teste | https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/src/ci_qualidade/tests/test_order.py |
 
 ### Código da funcionalidade (`order.py`)
   
@@ -179,10 +179,10 @@ pythonpath = .
 |---|---|
 | Nome do workflow | `Quality Pipeline` |
 | Evento que dispara a execução | `push` e `pull_request` na branch `main` |
-| Link para o arquivo do workflow | https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/src/testes_automatizados/ci_qualidade/workflows/quality.yml |
-| Link de uma execução do workflow | https://github.com/SEU-USUARIO/localeats-ci-qualidade/actions/runs/XXXXXXXXX |
+| Link para o arquivo do workflow | https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/.github/workflows/quality.yml |
+| Link de uma execução do workflow | https://github.com/Janine2110/Projetos---Qualidade-de-Software/actions/runs/28418471820|
 
-### Código do workflow (`https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/src/testes_automatizados/ci_qualidade/workflows/quality.yml`)
+### Código do workflow (`https://github.com/Janine2110/Projetos---Qualidade-de-Software/blob/main/.github/workflows/quality.yml`)
 
 ```yaml
 name: Quality Pipeline
@@ -196,6 +196,9 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: src/ci_qualidade
 
     steps:
       - name: Checkout do código
@@ -214,8 +217,6 @@ jobs:
       - name: Executar testes automatizados
         run: pytest tests/ -v
 ```
-
-> ⚠️ Lembre-se de substituir `XXXXXXXXX` pelo link real gerado após o primeiro push, disponível na aba **Actions** do repositório.
 
 ---
 
@@ -236,7 +237,7 @@ jobs:
 |---|---|
 | Título do defeito | `Total do pedido fica negativo quando o desconto é maior que o subtotal` |
 | Severidade | Média |
-| Link da Issue | https://github.com/SEU-USUARIO/localeats-ci-qualidade/issues/2 |
+| Link da Issue | https://github.com/Janine2110/Projetos---Qualidade-de-Software/issues/2 |
 
 **Qual foi o defeito?**
 Na primeira versão da função `calcular_total_pedido`, quando o valor do desconto era maior que a soma do subtotal com a taxa de entrega, o total final retornava um valor negativo, o que não faz sentido para um pedido real.
