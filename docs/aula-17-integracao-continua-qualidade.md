@@ -231,6 +231,10 @@ jobs:
 
 ---
 
+## Evidência da Execução
+
+https://raw.githubusercontent.com/Janine2110/Projetos---Qualidade-de-Software/main/artefatos/evidencias/ci_qualidade.jpg
+
 ## 🔹 6. Registro de Defeito
 
 | Item | Descrição |
